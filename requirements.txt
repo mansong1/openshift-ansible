@@ -1,6 +1,6 @@
 # Versions are pinned to prevent pypi releases arbitrarily breaking
 # tests with new APIs/semantics. We want to update versions deliberately.
-ansible==2.6.5
+ansible==12.0.0
 boto==2.44.0
 click==6.7
 pyOpenSSL==17.5.0
@@ -9,3 +9,4 @@ pyOpenSSL==17.5.0
 six==1.10.0
 shade==1.24.0
 passlib==1.6.5
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
